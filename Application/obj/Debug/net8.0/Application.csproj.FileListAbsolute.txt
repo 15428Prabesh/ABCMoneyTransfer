@@ -1,0 +1,15 @@
+E:\ABCMoneytransfer\ABCMoneytransfer\Application\bin\Debug\net8.0\Application.deps.json
+E:\ABCMoneytransfer\ABCMoneytransfer\Application\bin\Debug\net8.0\Application.dll
+E:\ABCMoneytransfer\ABCMoneytransfer\Application\bin\Debug\net8.0\Application.pdb
+E:\ABCMoneytransfer\ABCMoneytransfer\Application\bin\Debug\net8.0\Core.dll
+E:\ABCMoneytransfer\ABCMoneytransfer\Application\bin\Debug\net8.0\Core.pdb
+E:\ABCMoneytransfer\ABCMoneytransfer\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+E:\ABCMoneytransfer\ABCMoneytransfer\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\ABCMoneytransfer\ABCMoneytransfer\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+E:\ABCMoneytransfer\ABCMoneytransfer\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+E:\ABCMoneytransfer\ABCMoneytransfer\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+E:\ABCMoneytransfer\ABCMoneytransfer\Application\obj\Debug\net8.0\Application.csproj.CopyComplete
+E:\ABCMoneytransfer\ABCMoneytransfer\Application\obj\Debug\net8.0\Application.dll
+E:\ABCMoneytransfer\ABCMoneytransfer\Application\obj\Debug\net8.0\refint\Application.dll
+E:\ABCMoneytransfer\ABCMoneytransfer\Application\obj\Debug\net8.0\Application.pdb
+E:\ABCMoneytransfer\ABCMoneytransfer\Application\obj\Debug\net8.0\ref\Application.dll

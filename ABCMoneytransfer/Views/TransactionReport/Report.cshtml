@@ -1,0 +1,48 @@
+﻿@model List<Application.DTOs.TransactionReportDto>
+
+<h2>Transaction Report</h2>
+
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Sender</th>
+                <th>Receiver</th>
+                <th>Payment Detail</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var transaction in Model)
+            {
+                <tr>
+                    <td>
+                        <p><strong>First Name:</strong> @transaction.SenderFirstName</p>
+                        <p><strong>Middle Name:</strong> @transaction.SenderMiddleName</p>
+                        <p><strong>Last Name:</strong> @transaction.SenderLastName</p>
+                        <p><strong>Address:</strong> @transaction.SenderAddress</p>
+                        <p><strong>Country:</strong> @transaction.SenderCountry</p>
+                    </td>
+                    <td>
+                        <p><strong>First Name:</strong> @transaction.ReceiverFirstName</p>
+                        <p><strong>Middle Name:</strong> @transaction.ReceiverMiddleName</p>
+                        <p><strong>Last Name:</strong> @transaction.ReceiverLastName</p>
+                        <p><strong>Address:</strong> @transaction.ReceiverAddress</p>
+                        <p><strong>Country:</strong> @transaction.ReceiverCountry</p>
+                    </td>
+                    <td>
+                        <p><strong>Bank Name:</strong> @transaction.BankName</p>
+                        <p><strong>Account Number:</strong> @transaction.AccountNumber</p>
+                        <p><strong>Transfer Amount (MYR):</strong> @transaction.TransferAmountMYR.ToString("F2")</p>
+                        <p><strong>Exchange Rate:</strong> @transaction.ExchangeRate.ToString("F4")</p>
+                        <p><strong>Payout Amount (NPR):</strong> @transaction.PayoutAmountNPR.ToString("F2")</p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No transactions found for the selected date range.</p>
+}

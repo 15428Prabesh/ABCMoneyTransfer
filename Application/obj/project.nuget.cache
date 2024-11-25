@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "G/dlGPj4BDPlKg3Tv3WWFKMzv++oJwoLMj3JXqrR9psowh294Yb8Z937gAqR153Wk54fb25tx1kYVTqK/qdXVg==",
+  "success": true,
+  "projectFilePath": "E:\\ABCMoneytransfer\\ABCMoneytransfer\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

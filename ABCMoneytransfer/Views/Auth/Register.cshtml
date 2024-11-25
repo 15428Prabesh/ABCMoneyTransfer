@@ -1,0 +1,68 @@
+﻿@model Application.DTOs.RegisterUserDto
+
+<form asp-action="Register" method="post">
+	<div asp-validation-summary="All" class="text-danger"></div>
+
+	<div>
+		<label asp-for="Username"></label>
+		<input asp-for="Username" />
+		<span asp-validation-for="Username" class="text-danger"></span>
+	</div>
+
+	<div>
+		<label asp-for="Firstname"></label>
+		<input asp-for="Firstname" />
+		<span asp-validation-for="Firstname" class="text-danger"></span>
+	</div>
+
+	<div>
+		<label asp-for="Middlename"></label>
+		<input asp-for="Middlename" />
+		<span asp-validation-for="Middlename" class="text-danger"></span>
+	</div>
+
+	<div>
+		<label asp-for="Lastname"></label>
+		<input asp-for="Lastname" />
+		<span asp-validation-for="Lastname" class="text-danger"></span>
+	</div>
+
+	<div>
+		<label asp-for="Email"></label>
+		<input asp-for="Email" />
+		<span asp-validation-for="Email" class="text-danger"></span>
+	</div>
+
+	<div>
+		<label asp-for="Password"></label>
+		<input asp-for="Password" type="password" />
+		<span asp-validation-for="Password" class="text-danger"></span>
+	</div>
+
+	<div>
+		<label asp-for="ConfirmPassword"></label>
+		<input asp-for="ConfirmPassword" type="password" />
+		<span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+	</div>
+
+	<div>
+		<label asp-for="Address"></label>
+		<input asp-for="Address" />
+		<span asp-validation-for="Address" class="text-danger"></span>
+	</div>
+
+	<div>
+		<label asp-for="ContactNumber"></label>
+		<input asp-for="ContactNumber" />
+		<span asp-validation-for="ContactNumber" class="text-danger"></span>
+	</div>
+	<div>
+		<label asp-for="Country"></label>
+		<input asp-for="Country" />
+		<span asp-validation-for="Country" class="text-danger"></span>
+	</div>
+
+	<button type="submit">Register</button>
+</form>
+
+<a href="@Url.Action("Login", "Auth")">Already have an account? Login</a>

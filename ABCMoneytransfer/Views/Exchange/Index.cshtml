@@ -1,0 +1,33 @@
+﻿@model Newtonsoft.Json.Linq.JObject
+
+<h2>Current Exchange Rates</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Currency</th>
+            <th>Buy Rate</th>
+            <th>Sell Rate</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model["data"]["payload"].HasValues)
+        {
+            var rates = Model["data"]["payload"][0]["rates"];
+            foreach (var rate in rates)
+            {
+                <tr>
+                    <td>@rate["currency"]["name"]</td>
+                    <td>@rate["buy"]</td>
+                    <td>@rate["sell"]</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3">No exchange rates available.</td>
+            </tr>
+        }
+    </tbody>
+</table>

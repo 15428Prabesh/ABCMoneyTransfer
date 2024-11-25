@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to ABC Money Transfer</h1>
+    <p>Click below to sign up or log in.</p>
+    <a class="btn btn-primary" href="@Url.Action("Register", "Auth")">Sign Up</a>
+    <a class="btn btn-secondary" href="@Url.Action("Login", "Auth")">Log In</a>
+</div>
